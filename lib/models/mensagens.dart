@@ -1,4 +1,6 @@
-import 'dart:html';
+
+
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 class Mensagens{
   String user="";
@@ -7,6 +9,7 @@ class Mensagens{
   DateTime dt=DateTime.now();
 
   Mensagens();
+
   Map<String, dynamic> toJson()=>{
     'user': user,
     'friend': friend,

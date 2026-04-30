@@ -15,8 +15,6 @@ class _MessageListState extends State<MessageList> {
   List _resultsList = [];
 
 
-
-
   @override
   Widget build(BuildContext context) {
     _buscaRegistro();

@@ -1,6 +1,9 @@
+import 'package:firebase_core/firebase_core.dart';
+
 import '/widgets/widgetsInput.dart';
 import 'package:flutter/material.dart';
 
+import 'firebase_options.dart';
 import 'widgets/widgetsButton.dart';
 import 'widgets/widgetsTexto.dart';
 class MensagensFirestore extends StatefulWidget {
@@ -48,8 +51,6 @@ class _MensagensFirestoreState extends State<MensagensFirestore> {
 
 
   }
-
-
 
   ContainerInsere(TextEditingController txt, String label, String rotulo)
   {

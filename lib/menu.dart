@@ -1,10 +1,13 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'firebase_options.dart';
 
 import 'tela_Adicionar.dart';
 import 'tela_consulta.dart';
 class Menu extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    inicializarFirebase();
     return Scaffold(
       appBar: AppBar(
         title: Text("Exemplo Firestore"),
@@ -41,5 +44,12 @@ class Menu extends StatelessWidget {
     {
       return page;
     }));
+  }
+
+  Future<void> inicializarFirebase() async {
+    await Firebase.initializeApp(
+        options: DefaultFirebaseOptions.currentPlatform
+    );
+    Firebase.initializeApp().whenComplete(() => print("Conectado"));
   }
 }
