@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "56567342657",
+    "project_id": "projeto-teste-b0c1b",
+    "storage_bucket": "projeto-teste-b0c1b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56567342657:android:b05e0a0e433d28eab6c8c0",
+        "android_client_info": {
+          "package_name": "com.marcossial.projeto_teste"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3BkP_5AiIWS1AjlZfALmlJWxOz1DzIWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
